@@ -35,7 +35,7 @@ input{-webkit-appearance:none}
 .hot-top .right .top-ul li a h3{overflow:hidden;margin-top:7px;width:100%;height:25px;text-align:center;font-size:14px;line-height:25px}
 .index-top-ad{overflow:hidden;margin:12px auto 10px;padding:10px 10px 6px;width:75pc;background:#fff}
 .index-top-ad a{position:relative;float:left;display:block;margin-right:4px;margin-bottom:4px;width:33.1%;height:5pc}
-.index-top-ad a:before{position:absolute;right:0;bottom:0;width:26px;height:1pc;background:url(../img/watermark.png);color:#fff;content:" ";text-align:center;font-size:9pt}
+.index-top-ad a:before{position:absolute;right:0;bottom:0;width:26px;height:1pc;background:url(https://cdn.jsdelivr.net/gh/tt6a/cdn@3.4/watermark.png);color:#fff;content:" ";text-align:center;font-size:9pt}
 .index-top-ad a img{z-index:1;width:100%;height:5pc!important}
 .index-top-ad a:nth-child(3n+0){margin:0}
 .index-top-ad span a,.index-top-ad span a img{display:block;overflow:hidden;width:49.8%;height:5pc}
