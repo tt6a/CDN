@@ -246,19 +246,7 @@
     font-weight: 700;
     line-height: 30px
 }
-.no-comments-tips {
-    margin-top: 20px;
-    height: 30px;
-    line-height: 30px;
-    background-color: #f0f0f0;
-    text-align: center;
-    opacity: .5;
-    font-size: 12px;
-}
-.comments-header .name{position:relative;color:#838d97;text-align:}
-.comments-header .name::after{position:absolute;bottom:-13px;left:0;width:100%;height:3px;background:#2ac7e8;background:-moz-linear-gradient(left,#2ac7e8 0,#15cbcb 50%,#0dd5b9 100%);background:-webkit-linear-gradient(left,#2ac7e8 0,#15cbcb 50%,#0dd5b9 100%);background:linear-gradient(to right,#2ac7e8 0,#15cbcb 50%,#0dd5b9 100%);content:""}
-.comments-header .name .fa{margin-right:7px}
-.comments-header .name span{color:#1e1e1e}
+
 .article_content .left .article-content>h4 {
     font-size: 18px;
     font-weight: 700;
@@ -371,9 +359,11 @@
     position: relative;
     border-bottom: 1px solid #f6f6f6;
 }
-.list_down a{background:#5298ff;border:1px solid #5298ff;color:#fff;height:40px;line-height:38px;font-size:15px;text-align:center;border-radius:20px;margin-right:10px;margin-bottom: 5px;display:block;float:left;padding:0 20px 0 6px;}
-.list_down i{margin-right:8px;background:#fff;color:#5298ff;padding:5px 5px;border-radius:16px}
-.list_down a:hover{background:#3c86f3;color:#ffffff}
+
+.list_down a{border:1px solid #42a7ff;color: #42a7ff;height: 36px;line-height: 35px;font-size:15px;text-align:center;border-radius: 5px;margin-right:10px;display:block;float:left;padding: 0 20px 0 5px;transition: all .3s;}
+.list_down i{margin-right: 5px;color:#42a7ff;padding:5px 5px;}
+.list_down a:hover{background:#42a7ff;color:#fff;transition: all .3s;}
+.list_down a:hover i{color:#fff;transition: all .3s;}
 .article-pl {
     width: 100%;
     overflow: hidden
