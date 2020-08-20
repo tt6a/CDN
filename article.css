@@ -246,7 +246,15 @@
     font-weight: 700;
     line-height: 30px
 }
-
+.no-comments-tips {
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f0f0f0;
+    text-align: center;
+    opacity: .5;
+    font-size: 12px;
+}
 .article_content .left .article-content>h4 {
     font-size: 18px;
     font-weight: 700;
