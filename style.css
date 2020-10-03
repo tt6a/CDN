@@ -632,6 +632,28 @@ outline: none;
     animation: searchbox 1.5s;
 }
 
+# Normalize
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font: 300 17px "Microsoft JhengHei", miranafont, "Hiragino Sans GB", STXihei, "Microsoft YaHei", SimSun, Sans-Serif;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+::selection {
+    background: #444444;
+    color: #fff;
+}
 /*--------------------------------------------------------------
 ## header
 --------------------------------------------------------------*/
